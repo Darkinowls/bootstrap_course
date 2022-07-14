@@ -55,13 +55,18 @@
             <div class="row row-header">
                 <div class="col-12 col-sm-6">
                     <h1>Ristorante con Fusion</h1>
-                    <p>We take inspiration from the World's best cuisines, and
+                    <p>We take inspiration from the
+                        World's best cuisines, and
                         create a unique fusion experience. Our lipsmacking
                         creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm align-self-center">
+                <div class="col-12 col-sm-2 align-self-center">
                     <img src="img/logo.png" alt="" class="img-fluid">
-
+                </div>
+                <div class="col-12 col-sm-4 text-center align-self-center">
+                    <a href="#reserve-row" class="btn btn-sm btn-warning w-100">
+                        Reserve
+                        Table </a>
                 </div>
             </div>
         </div>
@@ -83,7 +88,8 @@
                             <span
                                 class="badge badge-pill badge-secondary">$4.99</span>
                         </h2>
-                        <p>A unique combination of Indian Uthappam (pancake) and
+                        <p class="d-none d-sm-block">A unique combination of
+                            Indian Uthappam (pancake) and
                             Italian
                             pizza, topped with Cerignola olives, ripe vine
                             cherry
@@ -101,11 +107,21 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five
-                    different salads, six enticing appetizers, six main entrees
-                    and five choicest desserts. Free flowing bubbly and soft
-                    drinks. All for just $19.99 per person </p>
+                <div class="media">
+                    <div class="media-body">
+                        <h2>Weekend Grand Buffet <span
+                                class="badge badge-danger">NEW</span> </h2>
+                        <p class="d-none d-sm-block">Featuring mouthwatering
+                            combinations with a choice of five
+                            different salads, six enticing appetizers, six main
+                            entrees
+                            and five choicest desserts. Free flowing bubbly and
+                            soft
+                            drinks. All for just $19.99 per person </p>
+                    </div>
+                    <img class="d-flex ml-3 img-thumbnail align-self-center"
+                        src="img/buffet.png" alt="">
+                </div>
             </div>
         </div>
 
@@ -120,16 +136,81 @@
                     <div class="media-body">
                         <h2>Alberto Somayya</h2>
                         <h4>Executive Chef</h4>
-                        <p>Award winning three-star Michelin chef with wide
-                            International experience having worked closely with
+                        <p class="d-none d-sm-block">Award winning
+                            three-star
+                            Michelin chef with wide
+                            International experience having worked closely
+                            with
                             whos-who
-                            in the culinary world, he specializes in creating
-                            mouthwatering Indo-Italian fusion experiences. </p>
+                            in the culinary world, he specializes in
+                            creating
+                            mouthwatering Indo-Italian fusion experiences.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="row row-content" id="reserve-row">
+            <div class="offset-sm-2 col-sm-8 col-12">
+                <div class="card">
+                    <div
+                        class="card-header bg-warning text-white font-weight-bold">
+                        Reserve a Table
+                    </div>
+                    <form class="card-body">
+                        <div class="row mt-2">
+                            <label class="col-sm-4" for="persons">Number
+                                of
+                                Guests</label>
+                            <div class="col col-sm form-check-label"
+                                id="persons">
+                                <input type="radio" id="person-1"
+                                    name="persons">
+                                <label class="form-check-label"
+                                    for="person-1">1</label>
+                                <input type="radio" id="person-2"
+                                    name="persons">
+                                <label for="person-2">2</label>
+                                <input type="radio" id="person-3"
+                                    name="persons">
+                                <label for="person-3">3</label>
+                                <input type="radio" id="person-4"
+                                    name="persons">
+                                <label for="person-4">4</label>
+                                <input type="radio" id="person-5"
+                                    name="persons">
+                                <label for="person-5">5</label>
+                                <input type="radio" id="person-6"
+                                    name="persons">
+                                <label for="person-6">6</label>
+                            </div>
+                        </div>
+
+                        <div class="row mt-2">
+                            <label class="col-md-4">Date and
+                                Time</label>
+                            <div class="col-md"><input type="text"
+                                    class="form-control" placeholder="Date">
+                            </div>
+                            <div class="col-md">
+                                <input class="form-control" type="text"
+                                    placeholder="Time">
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col offset-md-4">
+                                <button type="submit" class="btn btn-primary">
+                                    Reserve
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
+
+
 
     <footer class="footer">
         <div class="container">
